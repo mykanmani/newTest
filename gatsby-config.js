@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'My Kanmani',
     author: 'Ankit',
-    description: '',
+    description: 'Blog by Ankit',
+    siteUrl: '',
     social: {
       twitter: '',
     },
