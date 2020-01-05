@@ -11,23 +11,7 @@ class Bio extends React.Component {
           marginBottom: rhythm(2),
         }}
       >
-        <img
-          src={profilePic}
-          alt={`Ankit`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-            borderRadius: '50%',
-          }}
-        />
-        <p style={{ maxWidth: 310 }}>
-           Blog by Ankit.
-          {' '}
-          <br/>
-          I&nbsp;write feelings into words.
-        </p>
+       
       </div>
     );
   }
