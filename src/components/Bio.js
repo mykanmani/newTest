@@ -11,7 +11,12 @@ class Bio extends React.Component {
           marginBottom: rhythm(2),
         }}
       >
-       
+        <p style={{ maxWidth: 310 }}>
+           Blog by Ankit.
+          {' '}
+          <br/>
+          I&nbsp;write feelings into words.
+        </p>
       </div>
     );
   }
