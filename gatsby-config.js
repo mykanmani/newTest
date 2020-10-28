@@ -126,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: '',
+            title: 'Hey There!',
           },
         ],
       },
