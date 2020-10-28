@@ -11,12 +11,6 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
-      resolve: '@mkitio/gatsby-theme-password-protect',
-      options: {
-        password: 'Bangalore@2015' // delete or `undefined` to disable password protection
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
@@ -53,6 +47,12 @@ module.exports = {
             options: {
               target: '_blank',
             },
+          },
+          {
+            resolve: '@mkitio/gatsby-theme-password-protect',
+            options: {
+              password: 'Bangalore@2015' // delete or `undefined` to disable password protection
+            }
           },
         ],
       },
