@@ -3,7 +3,7 @@ module.exports = {
     title: 'My Kanmani',
     author: 'Ankit',
     description: 'Blog by Ankit',
-    siteUrl: '',
+    siteUrl: 'https://api.github.com',
     social: {
       twitter: '',
     },
@@ -48,18 +48,12 @@ module.exports = {
               target: '_blank',
             },
           },
-          {
-            resolve: '@mkitio/gatsby-theme-password-protect',
-            options: {
-              password: 'Bangalore@2015' // delete or `undefined` to disable password protection
-            }
-          },
         ],
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-     {
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `G-2EYBB0VDZN`,
@@ -132,7 +126,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: "",
+            title: '',
           },
         ],
       },
@@ -165,5 +159,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        password: 'Bangalore@2015', // delete or `undefined` to disable password protection
+      },
+    },
   ],
 };
