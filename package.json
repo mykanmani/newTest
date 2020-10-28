@@ -7,7 +7,7 @@
     "url": "https://github.com/gaearon/overreacted.io/issues"
   },
   "dependencies": {
-    "@mkitio/gatsby-theme-password-protect": "^1.1.0",
+    "@mkitio/gatsby-theme-password-protect": "^2.1.2",
     "gatsby": "^2.24.89",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-feed": "^2.0.8",

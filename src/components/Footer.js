@@ -10,8 +10,7 @@ class Footer extends React.Component {
           marginTop: rhythm(2.5),
           paddingTop: rhythm(1),
         }}
-      >
-      </footer>
+      ></footer>
     );
   }
 }

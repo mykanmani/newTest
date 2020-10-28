@@ -30,10 +30,7 @@ class Translations extends React.Component {
     let readerTranslations = translations.filter(lang => lang !== 'ru');
     let hasRussianTranslation = translations.indexOf('ru') !== -1;
 
-    return (
-      <div>
-      </div>
-    );
+    return <div></div>;
   }
 }
 
@@ -85,8 +82,8 @@ class BlogPostTemplate extends React.Component {
     const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
       `https://overreacted.io${enSlug}`
     )}`;
-    
-    console.log(previous)
+
+    console.log(previous);
 
     return (
       <Layout location={this.props.location} title={siteTitle}>

@@ -12,9 +12,7 @@ class Bio extends React.Component {
         }}
       >
         <p style={{ maxWidth: 310 }}>
-           Blog by Ankit.
-          {' '}
-          <br/>
+          Blog by Ankit. <br />
           I&nbsp;write feelings into words.
         </p>
       </div>
