@@ -37,7 +37,7 @@
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-wordpress-2016": "^0.15.10",
-    "@mkitio/gatsby-theme-password-protect": "^1.1.0",
+    "@mkitio/gatsby-theme-password-protect": "^1.1.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
